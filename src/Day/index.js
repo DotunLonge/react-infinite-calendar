@@ -28,7 +28,7 @@ export default class Day extends PureComponent {
         className={styles.selection}
         data-date={date}
         style={{
-          backgroundColor:
+          background:
             typeof this.selectionColor === "object"
               ? `linear-gradient( 90deg, ${this.selectionColor[0]}, ${
                   this.selectionColor[0]
